@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chidiya_udd</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container1 container" id="container1">
+        <img src="background1.png" id="bgd1" class="bgd">
+        <div>
+            <label for="nop">No of players:</label>
+            <select name="nofp" id="nop">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <button id="start" onclick="change1()">START</button>
+        </div>
+        
+    </div>
+    <div class="container2 container" id="container2">
+        <img src="background2.png" class="bgd">
+        <button id="begin" onclick="change2()">BEGIN</button>
+    </div>
+    <div class="container3 container" id="container3">
+        <img src="rsg.png" id="ques">
+    </div>
+    <div class="container4 container" id="container4">
+        <div id="eliminate">PLAYERS ELIMINATED</div>
+        <div id="player1">PLAYER 1</div>
+        <div id="player2">PLAYER 2</div>
+        <div id="player3">PLAYER 3</div>
+        <div id="player4">PLAYER 4</div>
+        <button id="continue" onclick="change4()" >CONTINUE</button>
+    </div>
+        <div class="container5 container" id="container5">
+            <div id="none">ITS A DRAW</div>
+            <div id="p1win">PLAYER 1 HAS WON THE GAME</div>
+            <div id="p2win">PLAYER 2 HAS WON THE GAME</div>
+            <div id="p3win">PLAYER 3 HAS WON THE GAME</div>
+            <div id="p4win">PLAYER 4 HAS WON THE GAME</div>
+            <button id="restart" onclick="change5()">RESTART</button>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: auto;
+    height: max-content;
+}
+.container{
+    width: 90%;
+}
+.container1{
+    /* display: none; */
+}
+.container1 div{
+    position: absolute;
+    margin-top: -25%;
+    left: 15%;
+}
+.container1 div label{
+    color: #fff;
+    font-size: 4rem;
+}
+#nop{
+    margin-left: 1rem;
+    font-size: 4rem;
+    background-color: black;
+    border: black;
+    color: #fff;
+}
+.bgd{
+    
+    width: 100%;
+}
+.container2{
+    display: none;
+}
+#begin{
+    position: absolute;
+    margin-top: 38%;
+    font-size: 3rem;
+    margin-left: -25%;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-weight: bolder;
+}
+#start{
+        position: relative;
+        transform: translate(-200%,250%);
+        font-size: 3rem;
+        border-radius: 10px;
+        padding: 1rem 2rem;
+        background-color: black;
+        color: #fff;
+        font-weight: bolder;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+#ques{
+    width: 75%;
+}
+.container4{
+    display: none;
+}
+#eliminate{
+    color: #fff;
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+#player1,#player2,#player3,#player4{
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2%;}
+#continue{
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-weight: bolder;
+    margin-left: 60%;
+}
+#player1,#player2,#player3,#player4{
+    display: none;}
+
+#p1win,#p2win,#p3win,#p4win,#none{
+    color: #fff;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 22%;}
+
+    #p1win,#p2win,#p3win,#p4win,#none{display: none;}
+
+    #restart{
+        position: relative;
+        background-color: black;
+        color: #fff;
+        font-size: 4rem;
+        border-radius: 10px;
+        padding: 1rem 2rem;
+        font-weight: bolder;
+        margin-left:auto;
+        margin-right: auto;
+    }
+#container5{
+    display: none;
+    flex-direction: column;
+}
