@@ -315,12 +315,14 @@ if(x==4)
 }
 function timefind(){
     if (gamma<5)
-    return 1750;
+    return 2000;
     else if (gamma<10)
-    return 1500;
+    return 1750;
     else if(gamma<15)
-    return 1250;
+    return 1500;
     else if(gamma<20)
+    return 1250;
+    else if(gamma<25)
     return 1000;
     else
     return 750;
